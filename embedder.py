@@ -51,7 +51,7 @@ class ModelManager:
             self._hyde_tok = AutoTokenizer.from_pretrained(HYDE_LLM_NAME)
             self._hyde_model = AutoModelForCausalLM.from_pretrained(
                 HYDE_LLM_NAME,
-                torch_dtype=torch.float16,
+                dtype=torch.float16,
                 low_cpu_mem_usage=True,
             ).to(DEVICE)
             self._hyde_model.eval()
