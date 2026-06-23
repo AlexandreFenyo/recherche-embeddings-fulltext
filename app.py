@@ -239,6 +239,11 @@ with gr.Blocks(
                     label="Activer HyDE (compare « requête seule » vs « HyDE », LLM Qwen2.5-7B)",
                     scale=4,
                 )
+            gr.Markdown(
+                "_HyDE n'apporte en principe que pour le modèle **symétrique** "
+                "`paraphrase-multilingual-mpnet-base-v2` ; les modèles E5 et bge-m3, "
+                "orientés question→passage, n'en ont pas besoin._"
+            )
             emb_hyde_text = gr.Textbox(
                 label="Pseudo-document HyDE généré (encodé à la place de la question)",
                 interactive=False, lines=3, visible=True,
