@@ -1,0 +1,19 @@
+# Secrets — NE JAMAIS committer
+.gh
+*.token
+.env
+
+# Données / stockage local (recréées par Docker / l'indexation)
+qdrant_storage/
+.venv/
+venv/
+
+# Caches Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Divers
+.claude/
+*.log
+.DS_Store

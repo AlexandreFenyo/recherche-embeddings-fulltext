@@ -1,0 +1,9 @@
+gradio>=5.0
+qdrant-client>=1.12
+opensearch-py>=2.4
+sentence-transformers>=3.0
+transformers>=4.45
+torch>=2.1
+spacy>=3.7
+numpy>=1.26
+pandas>=2.0
