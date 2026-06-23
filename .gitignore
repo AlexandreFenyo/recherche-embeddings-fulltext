@@ -1,5 +1,6 @@
 # Secrets — NE JAMAIS committer
 .gh
+.hf
 *.token
 .env
 
