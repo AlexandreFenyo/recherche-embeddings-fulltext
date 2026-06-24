@@ -8,6 +8,8 @@ recherche **plein texte** (OpenSearch), avec **reranking** (cross-encoder) et
 Interface **Gradio** + **Qdrant** (base vectorielle) + **OpenSearch** (full-text),
 le tout orchestré par **Docker**.
 
+![Aperçu de l'application](screenshot.png)
+
 ## Démarrage rapide
 
 ```bash
